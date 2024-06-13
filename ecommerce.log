@@ -1,0 +1,165 @@
+2024-06-13 02:15:22,394 - ERROR - Error getting current user: [Errno 2] No such file or directory: 'session.txt'
+2024-06-13 02:17:48,646 - ERROR - Error getting current user: [Errno 2] No such file or directory: 'session.txt'
+2024-06-13 02:18:09,023 - ERROR - Error registering user: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.password AS users_password, users.role AS users_role 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('Annah', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-06-13 02:18:09,023 - ERROR - Error getting current user: [Errno 2] No such file or directory: 'session.txt'
+2024-06-13 02:18:30,148 - ERROR - Error logging in user: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.password AS users_password, users.role AS users_role 
+FROM users 
+WHERE users.username = ? AND users.password = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('MUSTAFA', 'MUSTAFA', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-06-13 02:18:30,149 - ERROR - Error getting current user: [Errno 2] No such file or directory: 'session.txt'
+2024-06-13 02:34:38,194 - INFO - User logged out.
+2024-06-13 02:34:54,166 - ERROR - Error logging in user: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.password AS users_password, users.role AS users_role 
+FROM users 
+WHERE users.username = ? AND users.password = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('Annah', 'Annah', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-06-13 02:43:16,451 - ERROR - Error registering user: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.password AS users_password, users.role AS users_role 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('wilson', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2024-06-13 02:49:20,995 - ERROR - Error registering user: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.password AS users_password, users.role AS users_role 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('wilson', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2024-06-13 02:57:00,108 - ERROR - Error registering user: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.password AS users_password, users.role AS users_role 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('wilson', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2024-06-13 02:58:23,522 - INFO - Registering user: wilson, Role: User
+2024-06-13 02:58:23,545 - ERROR - Error registering user: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.password AS users_password, users.role AS users_role 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('wilson', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2024-06-13 03:01:13,969 - INFO - Registering user: wilson, Role: User
+2024-06-13 03:01:13,973 - ERROR - Error registering user: Mapper 'mapped class User->users' has no property 'cart_items'
+2024-06-13 03:02:36,427 - INFO - Registering user: wilson, Role: User
+2024-06-13 03:02:36,437 - ERROR - Error registering user: Mapper 'mapped class User->users' has no property 'orders'
+2024-06-13 03:04:38,847 - INFO - Registering user: wilson, Role: User
+2024-06-13 03:04:38,866 - ERROR - Error registering user: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.password AS users_password, users.role AS users_role 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('wilson', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2024-06-13 03:06:11,639 - INFO - Registering user: wilson, Role: Admin
+2024-06-13 03:06:11,663 - ERROR - Error registering user: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.password AS users_password, users.role AS users_role 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('wilson', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2024-06-13 03:08:18,228 - INFO - Registering user: wilson, Role: User
+2024-06-13 03:08:18,250 - ERROR - Error registering user: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.password AS users_password, users.role AS users_role 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('wilson', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2024-06-13 03:11:42,180 - INFO - Registering user: wilson, Role: User
+2024-06-13 03:11:42,200 - ERROR - Error registering user: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.password AS users_password, users.role AS users_role 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('wilson', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2024-06-13 03:17:51,176 - INFO - Registering user: wilson, Role: User
+2024-06-13 03:17:51,264 - INFO - User registered successfully: wilson, Role: User
+2024-06-13 03:18:02,144 - INFO - User logged in: wilson
+2024-06-13 03:18:39,983 - INFO - User logged out.
+2024-06-13 03:18:54,042 - INFO - Registering user: astra, Role: Admin
+2024-06-13 03:18:54,132 - INFO - User registered successfully: astra, Role: Admin
+2024-06-13 03:19:07,752 - INFO - User logged in: astra
+2024-06-13 03:19:31,129 - INFO - Product added: laptop, Price: $25000.0
+2024-06-13 03:19:51,661 - INFO - User logged out.
+2024-06-13 03:20:02,349 - INFO - User logged in: wilson
+2024-06-13 03:20:19,988 - INFO - Product added to cart: laptop, User: wilson
+2024-06-13 03:21:12,298 - INFO - Order placed: 1, User: wilson
+2024-06-13 03:21:32,084 - INFO - Order canceled: 1, User: wilson
+2024-06-13 03:21:42,240 - INFO - User logged out.
+2024-06-13 03:22:03,908 - INFO - User logged in: astra
+2024-06-13 03:22:52,301 - INFO - Product added: iphone 11, Price: $50000.0
+2024-06-13 03:23:41,635 - INFO - Order status updated: 1, Status: Processed
+2024-06-13 03:24:14,407 - ERROR - Error deleting user: (sqlite3.IntegrityError) NOT NULL constraint failed: cart_items.user_id
+[SQL: UPDATE cart_items SET user_id=? WHERE cart_items.id = ?]
+[parameters: (None, 1)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2024-06-13 03:25:01,348 - INFO - User logged in: astra
+2024-06-13 03:25:22,335 - ERROR - Error deleting user: (sqlite3.IntegrityError) NOT NULL constraint failed: cart_items.user_id
+[SQL: UPDATE cart_items SET user_id=? WHERE cart_items.id = ?]
+[parameters: (None, 1)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2024-06-13 03:25:54,450 - INFO - Order status updated: 1, Status: Delivered
+2024-06-13 03:26:46,255 - INFO - Registering user: mustafa, Role: User
+2024-06-13 03:26:46,334 - INFO - User registered successfully: mustafa, Role: User
+2024-06-13 03:27:31,654 - INFO - Product added to cart: iphone 11, User: astra
+2024-06-13 03:35:48,412 - INFO - User logged in: astra
+2024-06-13 03:36:01,096 - ERROR - Error deleting user: (sqlite3.IntegrityError) NOT NULL constraint failed: orders.user_id
+[SQL: UPDATE orders SET user_id=? WHERE orders.id = ?]
+[parameters: (None, 1)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2024-06-13 03:38:43,400 - INFO - User logged in: astra
+2024-06-13 03:38:58,649 - INFO - User deleted: mustafa
+2024-06-13 03:42:03,320 - INFO - User logged out.
+2024-06-13 03:42:41,863 - INFO - User logged in: wilson
+2024-06-13 03:48:39,999 - INFO - User logged out.
+2024-06-13 03:49:07,484 - INFO - User logged in: wilson
+2024-06-13 03:49:38,893 - INFO - User logged out.
+2024-06-13 03:50:40,362 - INFO - User logged in: astra
+2024-06-13 03:50:55,850 - ERROR - Error deleting user: (sqlite3.IntegrityError) NOT NULL constraint failed: cart_items.user_id
+[SQL: UPDATE cart_items SET user_id=? WHERE cart_items.id = ?]
+[parameters: (None, 1)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2024-06-13 03:51:16,960 - INFO - User logged out.
+2024-06-13 03:51:25,484 - INFO - User logged in: wilson
+2024-06-13 03:51:40,254 - INFO - Product added to cart: iphone 11, User: wilson
+2024-06-13 03:51:51,295 - INFO - Order placed: 2, User: wilson
+2024-06-13 03:52:34,414 - INFO - Product added to cart: iphone 11, User: wilson
+2024-06-13 03:53:30,495 - INFO - User logged out.
+2024-06-13 03:53:37,541 - INFO - User logged in: astra
+2024-06-13 03:53:52,533 - INFO - Order status updated: 2, Status: Processed
+2024-06-13 03:54:17,244 - ERROR - Error deleting user: (sqlite3.IntegrityError) NOT NULL constraint failed: cart_items.user_id
+[SQL: UPDATE cart_items SET user_id=? WHERE cart_items.id = ?]
+[parameters: ((None, 1), (None, 3), (None, 4))]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2024-06-13 03:55:12,760 - INFO - User logged out.
+2024-06-13 03:55:26,330 - INFO - User registered: mustafa as User
+2024-06-13 03:55:34,411 - INFO - User logged in: astra
+2024-06-13 03:55:43,215 - INFO - User deleted: mustafa
+2024-06-13 03:59:18,992 - INFO - User logged out.
+2024-06-13 03:59:26,698 - INFO - User logged in: wilson
+2024-06-13 03:59:42,401 - INFO - Order placed: 3, User: wilson
+2024-06-13 04:01:58,503 - INFO - Cart emptied for user: wilson
+2024-06-13 04:02:32,936 - INFO - User logged out.
+2024-06-13 04:12:34,915 - INFO - User logged in: wilson
+2024-06-13 04:13:00,943 - INFO - Product added to cart: laptop, User: wilson
+2024-06-13 04:13:13,559 - INFO - Order placed: 4, User: wilson
+2024-06-13 04:14:17,042 - INFO - Cart emptied for user: wilson
+2024-06-13 04:15:19,932 - INFO - Order canceled: 4, User: wilson
+2024-06-13 04:19:46,544 - INFO - User logged out.
